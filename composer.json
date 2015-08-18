@@ -1,0 +1,22 @@
+{
+  "name": "kuzmich/lock",
+  "description": "",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey V. Kuzin",
+      "email": "sergey@kuzin.name"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "kuzmich/cache": "dev-master",
+    "doctrine/cache": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lock\\": "src/"
+    }
+  }
+}
